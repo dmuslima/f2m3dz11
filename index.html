@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <h1>Foydalanuvchilarni saralash</h1>
+    <div class="inputs">
+      <select id="sortSelector">
+        <option value="name">Ism bo'yicha saralash</option>
+        <option value="age">Yosh bo'yicha saralash</option>
+      </select>
+      <input id="searchInput" type="text" placeholder="Qidirish (Ism yoki Familiya)">
+    </div>
+    <div id="loader" class="loader"></div>
+    <div id="usersContainer" class="users"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
